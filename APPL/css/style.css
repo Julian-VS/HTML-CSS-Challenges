@@ -1,0 +1,108 @@
+p
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+nav{
+    position:relative;
+    color:white;
+    background-color: rgb(49,49,49);
+    display:flex;
+    flex-direction: row;
+   
+}
+
+.nav-cont{
+    max-width:1024px;
+    margin:auto;
+    justify-content: center;
+
+}
+
+nav ul{
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:-10px;
+    margin-right:-10px;
+    height:44px;
+    color: lightgray;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul li{
+max-width:45.9px;
+}
+
+.iconify{
+    font-size: 22.5px;
+}
+
+.TAE {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.subhead {
+    background-color: rgb(239,239,239);
+    padding:10px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.nav-cont a
+{
+    transition: 0.5s ease;
+    color:rgb(152,152,152);
+}
+
+.nav-cont a:hover
+{
+    transition: 0.5s ease;
+    color:white;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+main h1{
+    font-size:50px;
+    font-weight:bold;
+    margin-top: 50px;
+    margin-bottom:-20px;
+}
+
+main h2{
+    font-size: 25px;
+}
+
+main p{
+    font-size:18px;
+    color:gray;
+    text-align:center;
+}
+
+.links {
+    display:flex;
+    margin:auto;
+    width:300px;
+    align-content: center;
+    justify-content: space-between ;
+    
+}
+
+img{
+    margin-top: 50px;
+    float: center;
+    width:50%;
+}
